@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <main>
+        <header id="home">
+            <nav class="desktop_menu desktop">
+                <a class="nav_link" href="#about">About</a>
+                <a class="nav_link" href="#portfolio">Portfolio</a>
+                <a class="nav_link" href="#contacts">Contacts</a>
+                <a class="nav_link" href="#home">Home</a>
+            </nav>
+            <input class="hamburger_button mobile" type="image" src="images/hamberger.png">
+            <nav class="hamburger">
+                <a class="nav_link" href="#about">About</a>
+                <a class="nav_link" href="#portfolio">Portfolio</a>
+                <a class="nav_link" href="#contacts">Contacts</a>
+                <a class="nav_link" href="#home">Home</a>
+            </nav>
+            <h1>Jane Doe,<br/> Front-end developer</h1>
+        </header>
+        <section id="about">
+            <div id="about_img">
+                <img id="about_img_back" src="images/aboutMe.jpg" alt="person" width="20%">
+                <img id="about_img_front" src="images/person.jpg" alt="person" width="20%">
+            </div>
+            <div id="about_text">
+                <h2>About me</h2>
+                <p>Hi, I'm Jane Doe. I've been a junior front-end developer for 5 months now.
+                For me, programming is not just a job, it's a hobby.
+                I'm open to new knowledge, I like to study new technologies and apply them in practice.
+                Skills: HTML, CSS, JS, React.</p>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="window">
+                <h2>Flashcards</h2>
+                <p>You can see the project at the following link: <a href="#">flashcard</a></p>
+                <button id="close">Close</button>
+            </div>
+            <div id="portfolio_items">
+                <div class="portfolio_item">
+                    <p>Flashcards</p>
+                    <img src="images/project1.png" alt="project1" width="60%">
+                    <button class="open-window" id="flashcards">More detailed</button>
+                </div>
+                <div class="portfolio_item">
+                    <p>Virtual Piano</p>
+                    <img src="images/project2.png" alt="project2" width="60%">
+                    <button class="open-window" id="virtualPiano">More detailed</button>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <h2>CONTACTS</h2>
+            <p>You can contact me at <a href="mailto:m.bluth@example.com">Email</a></p>
+            <p>or phone number <a href="tel:+123456789">Phone</a></p>
+        </section>
+    </main>
+<footer>
+    <p>Jane Doe</p>
+    <p>2020</p>
+</footer>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
